@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <!--  <item
+        android:id="@+id/menu_attraction"
+        android:orderInCategory="100"
+        android:title="@string/menu_attraction" />-->
+    <item
+        android:id="@+id/menu_palace"
+        android:orderInCategory="100"
+        android:title="@string/menu_palace" />
+    <item
+        android:id="@+id/menu_museum"
+        android:orderInCategory="100"
+        android:title="@string/menu_museum" />
+    <item
+        android:id="@+id/menu_image"
+        android:orderInCategory="100"
+        android:title="@string/menu_image" />
+
+</menu>

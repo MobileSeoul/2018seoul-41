@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="menu_icon_size">100dp</dimen>
+    <dimen name="help_margin_category">10dp</dimen>
+    <dimen name="help_margin_category2">20dp</dimen>
+    <dimen name="help_margin_category3">30dp</dimen>
+
+    <dimen name="help_text_size_title">25dp</dimen>
+    <dimen name="help_text_size_category">20dp</dimen>
+    <dimen name="help_text_size_category2">18dp</dimen>
+    <dimen name="help_text_size_category3">15dp</dimen>
+
+    <dimen name="help_text_image_size_width">120dp</dimen>
+    <dimen name="help_text_image_size_height">100dp</dimen>
+</resources>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kkh.safetaxi.HelpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <!-- Charge -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_taxi_charge"
+                    android:textSize="@dimen/help_text_size_title"
+                    android:textStyle="bold" />
+                <!--Regular-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/help_text_image_size_width"
+                        android:layout_height="@dimen/help_text_image_size_height"
+                        android:background="@drawable/regular" />
+
+                    <ImageView
+                        android:layout_width="@dimen/help_text_image_size_width"
+                        android:layout_height="@dimen/help_text_image_size_height"
+                        android:layout_marginStart="@dimen/help_margin_category"
+                        android:background="@drawable/regular2" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_default"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_default_normal"
+                    android:textSize="@dimen/help_text_size_category3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_additional_charge"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_additional_charge_normal"
+                    android:textSize="@dimen/help_text_size_category3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_additional_charge2"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_additional_charge2_normal"
+                    android:textSize="@dimen/help_text_size_category3" />
+                <!--Large-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:text="@string/help_taxi_big"
+                    android:textSize="@dimen/help_text_size_category" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="@dimen/help_text_image_size_width"
+                        android:layout_height="@dimen/help_text_image_size_height"
+                        android:background="@drawable/big" />
+
+                    <ImageView
+                        android:layout_width="@dimen/help_text_image_size_width"
+                        android:layout_height="@dimen/help_text_image_size_height"
+                        android:layout_marginStart="@dimen/help_margin_category"
+                        android:background="@drawable/mobum" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_default"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_default_big"
+                    android:textSize="@dimen/help_text_size_category3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_additional_charge"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_additional_charge_big"
+                    android:textSize="@dimen/help_text_size_category3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_additional_charge2"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_additional_charge2_big"
+                    android:textSize="@dimen/help_text_size_category3" />
+                <!--International-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:text="@string/help_taxi_international"
+                    android:textSize="@dimen/help_text_size_category" />
+
+                <ImageView
+                    android:layout_width="@dimen/help_text_image_size_width"
+                    android:layout_height="@dimen/help_text_image_size_height"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:background="@drawable/international" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_default"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_default_international"
+                    android:textSize="@dimen/help_text_size_category3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_additional_charge"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_additional_charge_international"
+                    android:textSize="@dimen/help_text_size_category3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_additional_charge2"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category3"
+                    android:text="@string/help_additional_charge2_international"
+                    android:textSize="@dimen/help_text_size_category3" />
+
+            </LinearLayout>
+            <!-- Extra Charge -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_taxi_charge_extra"
+                    android:textSize="@dimen/help_text_size_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:text="@string/help_taxi_charge_extra_text"
+                    android:textSize="@dimen/help_text_size_category" />
+            </LinearLayout>
+            <!-- Toll Road -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_taxi_toll_road"
+                    android:textSize="@dimen/help_text_size_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:text="@string/help_taxi_toll_road_text"
+                    android:textSize="@dimen/help_text_size_category" />
+            </LinearLayout>
+            <!-- Contact -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_taxi_contact"
+                    android:textSize="@dimen/help_text_size_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:text="@string/help_taxi_contact_112"
+                    android:textSize="@dimen/help_text_size_category" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:text="@string/help_taxi_contact_120"
+                    android:textSize="@dimen/help_text_size_category" />
+                <!-- International -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category"
+                    android:text="@string/help_taxi_contact_internal"
+                    android:textSize="@dimen/help_text_size_category" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_taxi_contact_internal_url"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_taxi_contact_internal_phone"
+                    android:textSize="@dimen/help_text_size_category2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/help_margin_category2"
+                    android:text="@string/help_taxi_contact_internal_email"
+                    android:textSize="@dimen/help_text_size_category2" />
+            </LinearLayout>
+            <!-- Embassy -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardElevation="5dp">
+
+                    <Button
+                        android:id="@+id/embassy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="@string/help_taxi_contact_embassy" />
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_developer_email"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

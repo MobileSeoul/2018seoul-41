@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kkh.safetaxi.TestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/noti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification" />
+        <Button
+            android:id="@+id/noti_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Delete" />
+        <Button
+            android:id="@+id/exchange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exchange" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

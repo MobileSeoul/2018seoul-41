@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/report_name" />
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/report_car" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardElevation="5dp">
+
+                <Button
+                    android:id="@+id/image_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="@string/label_number"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="From" />
+
+            <TextView
+                android:id="@+id/start_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/report_start_place" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="To" />
+
+            <TextView
+                android:id="@+id/destination_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/report_destination_place" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Start Time" />
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/report_start_time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="End Time" />
+
+            <TextView
+                android:id="@+id/destination_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/report_destination_time" />
+
+            <TextView
+                android:id="@+id/review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="@string/report_detail" />
+
+            <EditText
+                android:id="@+id/input_detail"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/report_response"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/report_response"
+                android:textStyle="bold|italic" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardElevation="5dp">
+
+                    <Button
+                        android:id="@+id/cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="@android:string/cancel" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardElevation="5dp">
+
+                    <Button
+                        android:id="@+id/ok"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="@string/label_send" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

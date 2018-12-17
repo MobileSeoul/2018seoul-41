@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">SafeTaxi</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_taxi_location">Taxi Stop Location</string>
+    <string name="menu_taxi_review">Taxi Review</string>
+    <string name="menu_taxi_drive_history">History</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_exchange">Exchange</string>
+    <string name="clear">Clear</string>
+    <string name="working">Working...</string>
+    <string name="taxi_stop">Taxi Stop</string>
+    <string name="taxi_stop_on">Taxi Stop On</string>
+    <string name="taxi_stop_off">Taxi Stop Off</string>
+    <string name="favorite_on">Favorite On</string>
+    <string name="favorite_off">Favorite Off</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <string name="dialog_msg_museum">Select Museum</string>
+    <string name="dialog_msg_palace">Select Palace</string>
+    <string name="dialog_msg_attraction">Select Attraction</string>
+    <string name="dialog_msg_history">Select</string>
+    <string name="dialog_msg_history_view">View</string>
+    <string name="dialog_msg_history_report">Report</string>
+    <string name="dialog_msg_history_modify">Modify</string>
+    <string name="dialog_msg_history_delete">Delete</string>
+    <string name="dialog_msg_history_delete_confirm">Delete this review?</string>
+    <string name="dialog_msg_location">Select Location</string>
+    <string name="dialog_msg_network">Network is off!!!</string>
+    <string name="dialog_msg_favorite">Add a favorite location?</string>
+    <string name="dialog_msg_favorite_remove">Remove a this location?</string>
+    <string name="dialog_msg_quit">Quit?</string>
+    <string name="dialog_msg_guide">Search a place and click a "Go" button.\nIf you arrive a destination, you can click a "Stop" button.\nYou can click marker to favorite list and You can report to Seoul-si in History.\nAdditionally, You can get a place info by menu button click.</string>
+    <string name="autocomplete_hint">Enter place name or address</string>
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+    <string name="msg_destination_err">Please select destination</string>
+
+    <string name="start_place">"From\n%s"</string>
+    <string name="destination_place">"To\n%s"</string>
+    <string name="distance">"Distance:%s km"</string>
+    <string name="time">"Time:%s"</string>
+    <string name="start_time">"Start Time\n%s"</string>
+    <string name="end_time">"End Time\n%s"</string>
+    <string name="travel_time">"Travel time:%s min"</string>
+    <string name="fee">"Fee:%s won"</string>
+    <string name="review_score">"Review Score:%s"</string>
+    <string name="review">"Review:%s"</string>
+
+    <string name="label_fee">"Input a fee"</string>
+    <string name="label_review">Input a review</string>
+    <string name="label_memo">Memo</string>
+    <string name="label_review_score">Select a score</string>
+    <string name="label_number">Get a Taxi picture</string>
+    <string name="label_report">Report</string>
+    <string name="label_ok">OK</string>
+    <string name="label_taxi_drive_history">Taxi Drive History</string>
+    <string name="label_won">Won(원)</string>
+
+    <string name="label_from">From\n%s</string>
+    <string name="label_to">To\n%s</string>
+    <string name="label_start_time">Start Time\n%s</string>
+    <string name="label_end_time">End Time\n%s</string>
+    <string name="label_no_favorite">Favorite location is not exist</string>
+    <string name="label_time">Time : %s sec</string>
+    <string name="label_send">Send(02-120)</string>
+    <string name="label_image">Image</string>
+
+    <string name="report_name">Reporter Name(Number)</string>
+    <string name="report_car">Car Number</string>
+    <string name="report_start_place">Start Place</string>
+    <string name="report_destination_place">Destination Place</string>
+    <string name="report_start_time">Start Time</string>
+    <string name="report_destination_time">Destination Time</string>
+    <string name="report_detail">Review</string>
+    <string name="report_response">please send by sms</string>
+    <string name="report_msg">You should share it by Message App</string>
+    <string name="report_name_err">You should input a name info</string>
+    <string name="report_image_err">You should input a taxi image</string>
+    <string name="report_title">Taxi Complain</string>
+
+    <string name="help_taxi_charge">Taxi Charge</string>
+    <string name="help_taxi_charge_extra">Extra Charge</string>
+    <string name="help_taxi_charge_extra_text">20% extra charge(00:00~04:00)</string>
+    <string name="help_taxi_toll_road">Toll Road</string>
+    <string name="help_taxi_toll_road_text">Passengers must pay for the use of a paid facility at the request of the passenger</string>
+    <string name="help_taxi">Taxi</string>
+    <string name="help_taxi_normal">Regular Taxi</string>
+    <string name="help_taxi_big">Large, 모범 Taxi</string>
+    <string name="help_taxi_international">International Taxi</string>
+    <string name="help_default">Default Charge</string>
+    <string name="help_default_normal">3,000won(~2km)</string>
+    <string name="help_default_big">5,000won(~3km)</string>
+    <string name="help_default_international">3,6500won(~2km)</string>
+    <string name="help_additional_charge">Additional Charge</string>
+    <string name="help_additional_charge_normal">142m/100won</string>
+    <string name="help_additional_charge_big">164m/200won</string>
+    <string name="help_additional_charge_international">142m/120won</string>
+    <string name="help_additional_charge2">Charge(Speed&lt;=14.75km/h)</string>
+    <string name="help_additional_charge2_normal">35sec/100won</string>
+    <string name="help_additional_charge2_big">39sec/200won</string>
+    <string name="help_additional_charge2_international">35sec/120won</string>
+    <string name="help_taxi_contact">Contact</string>
+    <string name="help_taxi_contact_112">Police:112</string>
+    <string name="help_taxi_contact_120">SeoulCallCenter:02-120</string>
+    <string name="help_taxi_contact_internal">Seoul Internal Taxi</string>
+    <string name="help_taxi_contact_internal_url">Url:http://www.intltaxi.co.kr</string>
+    <string name="help_taxi_contact_internal_phone">Phone:1644-2255</string>
+    <string name="help_taxi_contact_internal_email">Email:reserve@intltaxi.co.kr</string>
+    <string name="help_taxi_contact_embassy">Show Embassy List</string>
+    <string name="help_developer_email">Developer Email:tothetg@naver.com</string>
+    <string name="developer">By tothetg@naver.com</string>
+
+    <string name="noti_title">Safe Taxi</string>
+    <string name="noti_content">You arrived near the destination!</string>
+
+    <string name="embassy_title">Embassy List in Korea</string>
+
+    <string name="menu_palace">Korea Palace</string>
+    <string name="menu_attraction">Korea Attraction</string>
+    <string name="menu_museum">Korea Museum</string>
+    <string name="menu_image">Image List</string>
+
+    <string name="noti_destination">"%sm to destination"</string>
+    <string name="noti_location_error">"Please Location Service On."</string>
+
+    <string name="message_drive_alert">출발지와 목적지를 위와 같이 설정하였습니다. 불법 택시 운행이 의심될 경우 고객이 직접 02-120으로 신고할 수 있습니다.</string>
+    <string name="message_drive_alert_en">We have set the departure and destination as above. If you suspect an illegal taxi service, you may file a complaint directly to 02-120.</string>
+
+    <string name="exchange_list_dialog_title">Select unit</string>
+    <string name="exchange_krw">KRW</string>
+    <string name="exchange_krw_input">Input a won</string>
+    <string name="exchange_usd">USD</string>
+    <string name="exchange_dollar">$(Dollar)</string>
+    <string name="exchange_won">원(won)</string>
+    <string name="exchange_select_unit">Select a Unit</string>
+
+    <string name="shot">Screen Shot</string>
+    <string name="shot_message">You can find %s in /Download/SafeTaxi folder.</string>
+	<string name="view_map">View Map</string>
+
+    <string name="image_title">Click Image</string>
+
+    <string name="toast_image_file_err">Sorry. Please select image in internal storage.</string>
+
+</resources>
